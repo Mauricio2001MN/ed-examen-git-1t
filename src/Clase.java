@@ -1,9 +1,12 @@
 public class Clase {
     int i;
     String string = "string1";
+    int entero;
+    String string;
 
     public Clase(int i, String string) {
         this.i = i;
+        this.entero = i;
         this.string = string;
     }
 
@@ -15,5 +18,6 @@ public class Clase {
     @Override
     public String toString() {
         return "Objeto { i=" + i + ", a='" + string + "\'}";
+        return "Objeto { i=" + entero + ", a='" + string + "\'}";
     }
 }
